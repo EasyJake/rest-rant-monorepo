@@ -40,3 +40,6 @@ Finally, in separate terminals, run `npm start` in each folder so that the API a
 | /places/new           | `places/NewPlaceForm.js`  | Form for creating a new place                                                   |
 | /places/:placeId      | `places/PlaceDetails.js`  | Details of a place, including it's comments, and a form to create a new comment |
 | /places/:placeId/edit | `places/EditPlaceForm.js` | Form for editing a place                                                        |
+
+
+easyJake
