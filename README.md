@@ -9,7 +9,7 @@ Next create a `.env` file inside of `backend`. It will need to contain the follo
 PORT=5000
 DB_USERNAME=rest_rant_user
 DB_PASSWORD=password
-DB_DATABASE=rest_rant
+DB_DATABASE=rest_rant_auth
 ```
 
 Next `cd` into `backend` and run `npm install` to install dependencies for the API.
@@ -18,7 +18,7 @@ Next, `cd` into `frontend`, and run `npm install` to install dependencies for th
 
 Finally, in separate terminals, run `npm start` in each folder so that the API and React app are running at the same time.
 
-### API (http://localhost:5000)
+### API (http://localhost:5001)
 | Method | Path                                 | Purpose                                   |
 | ------ | ------------------------------------ | ----------------------------------------- |
 | GET    | /                                    | Home page                                 |
